@@ -51,3 +51,15 @@ Om overbelasting van je API-server te voorkomen kan het interessant zijn om thro
 3. Test alle endpoints uit door gebruik te maken van Postman.
 4. Denk na over de beveiliging van onze API endoints. Welke endpoints moeten beveiligd worden? Welke mogen publiek beschikbaar zijn?
 5. Voor je begint denk je na welke data een endpoint moet terugsturen. Volstaat een simpele '200 - OK' of is er meer data nodig? Waarom?
+
+# Installatie
+
+Open WSL
+
+CMD: wsl -d Ubuntu
+
+Navigeer naar je home folder: cd ~
+
+Kloon de repo in die map: git clone https://github.com/centiveo/app-week5.git
+
+Start sail
