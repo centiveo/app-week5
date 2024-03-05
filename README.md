@@ -64,7 +64,11 @@ Kloon de repo in die map: git clone https://github.com/centiveo/app-week5.git
 
 Rechten filesystem instellen:
 
-sudo chmod -R 775  ~/app-week5/vendor/
+Vendor map aanmaken: mkdir vendor
+
+sudo chmod -R 775 ~/app-week5/vendor/
 sudo chown -R $USER:$USER ~/app-week5/vendor/
+
+De vendor map is nu nog leeg. Installeer de nodige packages: composer update
 
 Start sail
