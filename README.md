@@ -75,3 +75,6 @@ sudo apt install php-curl
 De vendor map is nu nog leeg. Installeer de nodige packages: composer update
 
 Start sail
+
+Je krijgt nu nog een error op je scherm. Dat komt omdat er geen key is ingesteld. Je kunt dat doen door onderstaand commando uit te voeren:
+./vendor/bin/sail artisan key:generate
