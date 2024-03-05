@@ -69,6 +69,9 @@ Vendor map aanmaken: mkdir vendor
 sudo chmod -R 775 ~/app-week5/vendor/
 sudo chown -R $USER:$USER ~/app-week5/vendor/
 
+sudo apt install php-xml
+sudo apt install php-curl
+
 De vendor map is nu nog leeg. Installeer de nodige packages: composer update
 
 Start sail
